@@ -1,5 +1,6 @@
 import random
 j = 0
+test_var = 100
 while j != 1:
 	num = random.randint(1, 9)
 	print(f"the guess number is {num}\n")
