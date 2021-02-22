@@ -16,6 +16,12 @@ for numbers in range(1,6):
 	
 	print() # empty print functions used for enter after every loop on numbers.
 
+#Or we can use some other way like below.
+
+n = int(input("enter n: "))
+
+for i in range(n):
+	print((str(i+1)+" ")*(i+1))
 
 # Pattern 2: Inverted Pyramid of Numbers
 #Pattern:
