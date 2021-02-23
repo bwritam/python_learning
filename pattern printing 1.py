@@ -37,6 +37,13 @@ for i in range(1, 6):
 
 	print()
 
+#Or we can use some other way like below.
+
+n = int(input("enter n: "))
+
+for i in range(n):
+	print((str(n-i)+" ")*(n-i))
+
 
 # Pattern 3: Half Pyramid Pattern of Numbers
 # Pattern:
