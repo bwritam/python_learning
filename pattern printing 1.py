@@ -58,3 +58,13 @@ for i in range(1, 6):
 		print(j, end=" ")
 
 	print()
+
+#Or we can use some other way like below.
+
+n = int(input("enter n: "))
+
+for i in range(n):
+	for j in range(i+1):
+		print(j+1, end=" ")
+
+	print()
