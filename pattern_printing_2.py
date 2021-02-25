@@ -14,6 +14,14 @@ for i in range(5, 0, -1):
 
 	print()
 
+# Or some other way
+
+n = int(input("enter n: "))
+
+for i in range(n):
+	print((str(n-i)+" ")*(n-i))
+
+
 
 # Pattern 5: Inverted Pyramid of the Same Digit
 # Pattern:
