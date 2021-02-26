@@ -37,6 +37,13 @@ for i in range(5, 0, -1):
 
 	print()
 
+# We can do this pattern a different way
+
+n = int(input("enter n: "))
+
+for i in range(n):
+	print((str(n)+" ")*(n-i))
+
 
 # Pattern 6: Reverse Pyramid of Numbers
 # Pattern: 
