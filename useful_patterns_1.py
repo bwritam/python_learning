@@ -7,7 +7,7 @@ for i in range(n):
 
 # To print square pattern with * symbols
 # Pattern: 
-""" * * * * 
+"""     * * * * 
  	* * * * 
  	* * * * 
  	* * * * """ 
@@ -17,7 +17,7 @@ for i in range(n):
 
 # Square pattern with provided fixed digit
 # Pattern:
-''' 5 5 5 5 5 
+'''     5 5 5 5 5 
 	5 5 5 5 5 
 	5 5 5 5 5 
 	5 5 5 5 5 
@@ -28,7 +28,7 @@ for i in range(n):
 
 # Square pattern with provided fixed digit in every row
 # Pattern:
-''' 1 1 1 1 1 
+'''     1 1 1 1 1 
 	2 2 2 2 2 
 	3 3 3 3 3 
 	4 4 4 4 4 
@@ -39,7 +39,7 @@ for i in range(n):
 
 # To print square pattern with fixed alphabet symbol
 # Pattern:
-''' A A A A A 
+'''     A A A A A 
 	A A A A A 
 	A A A A A 
 	A A A A A 
@@ -50,7 +50,7 @@ for i in range(n):
 
 # Right angle triangle pattern with fixed alphabet symbol
 # Pattern:
-''' A 
+'''     A 
 	B B 
 	C C C 
 	D D D D 
@@ -61,7 +61,7 @@ for i in range(n):
 
 # Inverted right angle triangle pattern with * symbols
 # Pattern:
-''' * * * * * 
+'''     * * * * * 
 	* * * * 
 	* * * 
 	* * 
@@ -72,7 +72,7 @@ for i in range(n):
 
 # Inverted right angle triangle pattern with digits
 # Pattern:
-''' 1 2 3 4 5 
+'''     1 2 3 4 5 
 	1 2 3 4 
 	1 2 3 
 	1 2 
@@ -110,7 +110,7 @@ for i in range(n):
 
 # Right half diamond pattern with alphabet symbols in dictionary order
 # Pattern:
-''' A 
+'''     A 
 	A B 
 	A B C 
 	A B C D 
