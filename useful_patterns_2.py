@@ -32,7 +32,7 @@ for i in range(n-1):
 
  # To print right half diamond pattern with * symbols
  # Pattern:
- ''' * 
+ '''     * 
 	 * * 
 	 * * * 
 	 * * * * 
@@ -49,13 +49,13 @@ for i in range(n-1):
 
 # To print left half diamond pattern with * symbols
 # Pattern:
-'''       * 
+'''           * 
 	    * * 
  	  * * * 
 	* * * * 
   	  * * * 
-        * * 
-          * '''
+            * * 
+              * '''
 n = int(input("enter n: "))
 for i in range(n):
 	print("  "*(n-i-1)+"* "*(i+1))
@@ -135,7 +135,7 @@ for i in range(n):
 
 # To print inverted digits rightangle triangle
 # Pattern:
-''' 	1 
+''' 	        1 
 		2 1 
 		3 2 1 
 		4 3 2 1 
