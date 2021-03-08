@@ -3,14 +3,21 @@
 
 #using for loop
 def myfibonacci(num):
+	
 	a = 0
 	b = 1
-	print(b)
-	for i in range(1, num):
-		c = a + b
-		a = b
-		b = c
-		print(c)
+
+	if num == 1:
+		print(a)
+	else:
+		print(a)
+		print(b)
+		
+		for i in range(2, num):
+			c = a + b
+			a = b
+			b = c
+			print(c)
 
 
-myfibonacci(10)
+myfibonacci(5)
